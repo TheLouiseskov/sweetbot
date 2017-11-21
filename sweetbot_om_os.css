@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+#navbar{
+	background-color: #DDDDDD;
+	padding: 20px;
+	width: 70%;
+	float: right;
+	box-shadow: 2px 1px 10px #000000;
+	z-index: 1;
+	opacity: 0.5;
+}
+#navbar li{
+	display: inline;
+}
+#navbar a{
+	float: right;
+	text-decoration: none;
+	color: #000000;
+	font-family: verdena, helvetica, arial, sans-serif;
+	font-size: 1.5em;
+	margin-right: 200px;
+}
+#navbar a:hover{
+	color: red;
+}
+
+
+p {
+	font-size: 20px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+p1 {
+	font-size: 15px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
