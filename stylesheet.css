@@ -121,15 +121,32 @@ body{
 	margin-top: 15px;
 }
 /*Her begynder redirect siden*/
-
+#container{
+	width: 100%;
+}
+#price-redirect-headline{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.price-redirect-text{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#terms{
+	color: blue;
+	text-decoration: underline;
+}
 #button{
+	width: 100px;
 	outline: solid 3px black; /*Outline omkring tekst*/
-	padding: 7px 7px 7px 7px; /*Rum mellem tekst og outline*/
+	padding: 7px; /*Rum mellem tekst og outline*/
 	background-color: #1E21B0; /*Farve bag knappen*/
 	font-family: Helvetica, Verdana, Cambria, Arial, sans-serif;
-	font-weight: bold;
+	margin: auto;
 }
 #accept-button a{
-	color: black; /*Tekstens farve*/
 	text-decoration: none; /*Fjerner linjen under link*/
+	font-weight: bold;
+	color: white;
+	background-color: blue;
 }
