@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #749CD3;
+}
+#navbar{
+	background-color: #DDDDDD;
+	padding: 20px;
+	width: 100%;
+	float: right;
+	box-shadow: 2px 1px 10px #000000;
+	z-index: 1;
+	opacity: 0.5;
+	margin-bottom: 20px; /*Bruges til kontakt siden. Margin-top virker ikke*/
+}
+#navbar li{
+	display: inline;
+}
+#navbar a{
+	float: right;
+	text-decoration: none;
+	color: #000000;
+	font-family: verdena, helvetica, arial, sans-serif;
+	font-size: 1.5em;
+	margin-right: 200px;
+}
+#navbar a:hover{
+	color: red;
+}
+
+/*Her stopper navbar*/
+/*Her begynder priser*/
+
+#top{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+#hotbot-logo{
+}
+#back-to-sweetbot{
+	margin-right: 50px;
+}
+
+#wrapper-priser{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-around;
+	margin-left: auto;
+	margin-right: auto;
+}
+#product1, #product2, #product3, #product4{
+	width: 20%;
+	background-color: #E0DDDD;
+	height: 300px;
+	border-radius: 10px;
+	margin-top: 100px;
+}
+#product1, #product2, #product3, #product4{
+	line-height: 50px;
+	font-family: arial, verdana, helvetica, sans-serif;
+}
+.price-title{
+	font-size: 1.5em;
+	text-align: center;
+}
+.price-text{
+	font-family: arial;
+	float: left;
+	margin-left: 30px;
+}
+
+.webdesign_img {
+	position: absolute;
+	left: 47px;
+	top: 500px;
+}
+
+.webdevelopment_img {
+	position: absolute;
+	left: 400px;
+	top: 510px;
+}
+
+.branding_img {
+	position: absolute;
+	right: 405px;
+	top: 515px;
+}
+
+.security_img {
+	position: absolute;
+	right: 45px;
+	top: 505px;
+}
+
+/*Her begynder kontakt*/
+.kontakt-text-info{
+	font-family: verdana, helvetica, arial, sans-serif;
+	margin-left: 5%;
+}
+.mail{
+	font-weight: bold;
+}
+
+#wrapper-kontakt{
+	
+}
+
+#send-direct-mail{
+	
+}
+#send-direct-mail-marc{
+	width: 40%;
+}
+.kontakt-name{
+	background-color: white;
+	width: 300px;
+}
+.kontakt-email{
+	background-color: white;
+	width: 300px;
+}
+.kontakt-mail{
+	height: 300px;
+	width: 500px;
+	background-color: white;
+}
+.file{
+	
+}
+.kontakt-send{
+	margin-bottom: 50px;
+	margin-left: 200px;
+	padding: 5px;
+}
+.kontakt-text{
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	margin-bottom: 3px;
+	margin-top: 15px;
+}
+/*Her begynder redirect siden*/
+
+#button{
+	outline: solid 3px black; /*Outline omkring tekst*/
+	padding: 7px 7px 7px 7px; /*Rum mellem tekst og outline*/
+	background-color: #1E21B0; /*Farve bag knappen*/
+	font-family: Helvetica, Verdana, Cambria, Arial, sans-serif;
+	font-weight: bold;
+}
+#accept-button a{
+	color: black; /*Tekstens farve*/
+	text-decoration: none; /*Fjerner linjen under link*/
+}
