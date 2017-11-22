@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #749CD3;
+	font-family: 'Lato', sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+#navbar {
+	width: 100%;
+	margin-top: 50px;
+}
+
+li {
+    float: right;
+	z-index: 1000;
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #0076A8;;
+}
+
+/*Her stopper navbar*/
+/*Her begynder priser*/
+
+#top{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+#hotbot-logo{
+}
+#back-to-sweetbot{
+	margin-right: 50px;
+}
+
+#wrapper-priser{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-around;
+	margin-left: auto;
+	margin-right: auto;
+}
+#product1, #product2, #product3, #product4{
+	width: 20%;
+	background-color: #B5B2B0;
+	height: 300px;
+	border-radius: 10px;
+	margin-top: 50px;
+}
+#product1, #product2, #product3, #product4{
+	line-height: 50px;
+}
+.price-title{
+	font-size: 1.5em;
+	text-align: center;
+}
+.price-text{
+	font-family: verdana;
+	float: left;
+	margin-left: 30px;
+}
+
+/*Her begynder kontakt*/
+.kontakt-text-info{
+	margin-left: 5%;
+}
+.mail{
+	font-weight: bold;
+}
+
+#wrapper-kontakt{
+	
+}
+
+#send-direct-mail{
+	
+}
+#send-direct-mail-marc{
+	width: 40%;
+}
+.kontakt-name{
+	background-color: white;
+	width: 300px;
+}
+.kontakt-email{
+	background-color: white;
+	width: 300px;
+}
+.kontakt-mail{
+	height: 300px;
+	width: 500px;
+	background-color: white;
+}
+.file{
+	
+}
+.kontakt-send{
+	margin-bottom: 50px;
+	margin-left: 200px;
+	padding: 5px;
+}
+.kontakt-text{
+	margin-bottom: 3px;
+	margin-top: 15px;
+}
+/*Her begynder redirect siden*/
+#container{
+	width: 100%;
+}
+#price-redirect-headline{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.price-redirect-text{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#terms{
+	color: blue;
+	text-decoration: underline;
+}
+#button{
+	width: 100px;
+	outline: solid 3px black; /*Outline omkring tekst*/
+	padding: 7px; /*Rum mellem tekst og outline*/
+	background-color: #1E21B0; /*Farve bag knappen*/
+	margin: auto;
+}
+#accept-button a{
+	text-decoration: none; /*Fjerner linjen under link*/
+	font-weight: bold;
+	color: white;
+	background-color: blue;
+}
+
+
+.logo {
+	margin-top: 35px;
+	margin-left: 10px;
+}
+
