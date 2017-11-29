@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #749CD3;
+}
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.logo {
+	margin-top: 20px;
+	padding: 0;
+	text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: black;
+}
+
+#navbar {
+	width: 90em;
+	margin-top: 50px;
+}
+
+li {
+    float: right;
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #0076A8;;
+}
+
+
+img {
+	margin-top: 4 0px;
+}

@@ -1,34 +1,29 @@
 @charset "utf-8";
 /* CSS Document */
-
-
-/*Hotbot*/
-
 *{
 	margin: 0;
 	padding: 0;
 }
-body {
+body{
 	background-color: #749CD3;
+	font-family: 'Lato', sans-serif;
 }
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: black;
-	width: 100%;
 }
 
 #navbar {
 	width: 100%;
 	margin-top: 50px;
-	font-family: 'Lato', sans-serif;
 }
 
 li {
     float: right;
+	z-index: 1000;
 	
 }
 
@@ -45,10 +40,7 @@ li a:hover {
     background-color: #0076A8;;
 }
 
-
-
 /*Her stopper navbar*/
-
 /*Her begynder priser*/
 
 #top{
@@ -63,7 +55,7 @@ li a:hover {
 }
 
 #wrapper-priser{
-	display: inline-flex;
+	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
 	justify-content: space-around;
@@ -72,62 +64,26 @@ li a:hover {
 }
 #product1, #product2, #product3, #product4{
 	width: 20%;
-	background-color: #E0DDDD;
+	background-color: #B5B2B0;
 	height: 300px;
 	border-radius: 10px;
-	margin-top: 100px;
-	margin-bottom: 150px;
+	margin-top: 50px;
 }
 #product1, #product2, #product3, #product4{
-	width: 300px; 
-    word-wrap: break-word;
 	line-height: 50px;
-	font-family: arial, verdana, helvetica, sans-serif;
 }
 .price-title{
 	font-size: 1.5em;
 	text-align: center;
 }
 .price-text{
-	width: 200px; 
-    word-wrap: break-word;
-	font-family: arial;
+	font-family: verdana;
 	float: left;
 	margin-left: 30px;
-	margin-bottom: 60px;
 }
-
-.webdesign_img {
-	position: relative;
-
-}
-
-.webdevelopment_img {
-	position: relative;
-
-}
-
-.branding_img {
-	position: relative;
-	margin-top: 200px;
-
-}
-
-.security_img {
-	position: relative;
-
-}
-
-.logo {
-	margin-top: 20px;
-}
-
 
 /*Her begynder kontakt*/
-
-
 .kontakt-text-info{
-	font-family: verdana, helvetica, arial, sans-serif;
 	margin-left: 5%;
 }
 .mail{
@@ -157,36 +113,49 @@ li a:hover {
 	width: 500px;
 	background-color: white;
 }
-
+.file{
+	
+}
 .kontakt-send{
 	margin-bottom: 50px;
 	margin-left: 200px;
 	padding: 5px;
 }
 .kontakt-text{
-	font-family: Helvetica, Verdana, Arial, sans-serif;
 	margin-bottom: 3px;
 	margin-top: 15px;
 }
+/*Her begynder redirect siden*/
+#container{
+	width: 100%;
+}
+#price-redirect-headline{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.price-redirect-text{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#terms{
+	color: blue;
+	text-decoration: underline;
+}
+#button{
+	width: 100px;
+	outline: solid 3px black; /*Outline omkring tekst*/
+	padding: 7px; /*Rum mellem tekst og outline*/
+	background-color: #1E21B0; /*Farve bag knappen*/
+	margin: auto;
+}
+#accept-button a{
+	text-decoration: none; /*Fjerner linjen under link*/
+	font-weight: bold;
+	color: white;
+	background-color: blue;
+}
+
 
 .logo {
 	margin-top: 35px;
-}
-
-/*Her begynder redirect siden*/
-
-#button{
-	outline: solid 3px black; /*Outline omkring tekst*/
-	padding: 7px 7px 7px 7px; /*Rum mellem tekst og outline*/
-	background-color: #1E21B0; /*Farve bag knappen*/
-	font-family: Helvetica, Verdana, Cambria, Arial, sans-serif;
-	font-weight: bold;
-}
-#accept-button a{
-	color: black; /*Tekstens farve*/
-	text-decoration: none; /*Fjerner linjen under link*/
-}
-
-.logo {
-	margin-top: 20px;
 }
